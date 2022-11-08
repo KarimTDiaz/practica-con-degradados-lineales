@@ -1,0 +1,37 @@
+
+
+.grid-container{
+display: grid;
+grid-template-columns:300px 300px;
+grid-template-rows:200px 200px 200px;
+gap: 10px
+}
+.box{
+    background-color: aqua;
+}
+
+.box1{
+background-image: linear-gradient(red 66px, blue 66px 132px, orange 132px);
+}
+
+.box2{
+    background-image: linear-gradient(to right, black 100px, yellow 100px 200px, red 200px);
+}
+
+.box3{
+    background-image: linear-gradient(lightblue 66px, white 66px 76px, black 76px 120px , white 120px 132px,lightblue 132px );
+}
+
+.box4{
+    background-image: linear-gradient(to right, green 120px, transparent 100px), linear-gradient(yellow 100px, red 100px);
+}
+
+.box5{
+    background-image: linear-gradient(135deg, green 142px , yellow 142px 212px, red 212px);
+}
+
+.box6{
+    background-color: blue;
+    background-image: linear-gradient(350deg, green 55px, transparent 55px), linear-gradient(339deg, white 110px, transparent 110px),
+    linear-gradient(319deg, red 200px, transparent 200px), linear-gradient(299deg, yellow 270px,transparent 270px)
+}
